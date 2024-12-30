@@ -1,0 +1,10 @@
+services:
+  mysql:
+    image: 'mysql:latest'
+    environment:
+      MYSQL_DATABASE: librari
+      MYSQL_PASSWORD: erick
+      MYSQL_ROOT_PASSWORD: erick
+      MYSQL_USER: erick
+    ports:
+      - '3304:3306'
